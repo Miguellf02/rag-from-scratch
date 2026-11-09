@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="476" viewBox="0 0 720 476" role="img" aria-label="Similarity of every chunk to: What is the QBER threshold for BB84?">
+<style>
+svg { --surface:#fcfcfb; --ink:#0b0b0b; --ink2:#52514e; --muted:#898781; --grid:#e1e0d9;
+      --axis:#c3c2b7; --picked:#2a78d6; --other:#898781;
+      font-family: system-ui, -apple-system, "Segoe UI", sans-serif; }
+@media (prefers-color-scheme: dark) {
+  svg { --surface:#1a1a19; --ink:#f0efec; --ink2:#c3c2b7; --grid:#2c2c2a; --axis:#383835; --picked:#3987e5; }
+}
+.bg { fill: var(--surface); }
+.title { fill: var(--ink); font-size: 16px; font-weight: 600; }
+.sub { fill: var(--ink2); font-size: 13px; }
+.topic { fill: var(--ink2); font-size: 13px; }
+.topic.picked, .value.picked { fill: var(--ink); font-weight: 600; }
+.value { fill: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; }
+.tick { fill: var(--muted); font-size: 11px; font-variant-numeric: tabular-nums; }
+.grid { stroke: var(--grid); stroke-width: 1; }
+.axis { stroke: var(--axis); stroke-width: 1; }
+.bar { fill: var(--other); }
+.bar.picked { fill: var(--picked); }
+</style>
+<rect class="bg" width="720" height="476" rx="8"/>
+<text class="title" x="16" y="30">What is the QBER threshold for BB84?</text>
+<text class="sub" x="16" y="52">Cosine similarity of every chunk to the question. The top 3 are sent to the model.</text>
+<rect class="bar picked" x="16" y="68" width="12" height="12" rx="2"/><text class="sub" x="34" y="79">Sent to the model (top 3)</text>
+<rect class="bar" x="230" y="68" width="12" height="12" rx="2"/><text class="sub" x="248" y="79">Not retrieved</text>
+<line class="grid" x1="240.0" y1="94" x2="240.0" y2="436"/>
+<text class="tick" x="240.0" y="454" text-anchor="middle">0.0</text>
+<line class="grid" x1="320.0" y1="94" x2="320.0" y2="436"/>
+<text class="tick" x="320.0" y="454" text-anchor="middle">0.2</text>
+<line class="grid" x1="400.0" y1="94" x2="400.0" y2="436"/>
+<text class="tick" x="400.0" y="454" text-anchor="middle">0.4</text>
+<line class="grid" x1="480.0" y1="94" x2="480.0" y2="436"/>
+<text class="tick" x="480.0" y="454" text-anchor="middle">0.6</text>
+<line class="grid" x1="560.0" y1="94" x2="560.0" y2="436"/>
+<text class="tick" x="560.0" y="454" text-anchor="middle">0.8</text>
+<line class="grid" x1="640.0" y1="94" x2="640.0" y2="436"/>
+<text class="tick" x="640.0" y="454" text-anchor="middle">1.0</text>
+<line class="axis" x1="240" y1="94" x2="240" y2="436"/>
+<text class="topic picked" x="230" y="118.0" text-anchor="end">QBER</text>
+<path class="bar picked" d="M240.0,105.0 h297.6 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-297.6 z"/>
+<text class="value picked" x="547.6" y="118.0">0.754</text>
+<text class="topic picked" x="230" y="146.0" text-anchor="end">BB84</text>
+<path class="bar picked" d="M240.0,133.0 h289.4 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-289.4 z"/>
+<text class="value picked" x="539.4" y="146.0">0.733</text>
+<text class="topic picked" x="230" y="174.0" text-anchor="end">Monitoring &amp; anomaly detection</text>
+<path class="bar picked" d="M240.0,161.0 h236.4 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-236.4 z"/>
+<text class="value picked" x="486.4" y="174.0">0.601</text>
+<text class="topic" x="230" y="202.0" text-anchor="end">E91</text>
+<path class="bar" d="M240.0,189.0 h222.2 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-222.2 z"/>
+<text class="value" x="472.2" y="202.0">0.565</text>
+<text class="topic" x="230" y="230.0" text-anchor="end">What is QKD</text>
+<path class="bar" d="M240.0,217.0 h220.6 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-220.6 z"/>
+<text class="value" x="470.6" y="230.0">0.561</text>
+<text class="topic" x="230" y="258.0" text-anchor="end">Single-photon detectors</text>
+<path class="bar" d="M240.0,245.0 h216.1 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-216.1 z"/>
+<text class="value" x="466.1" y="258.0">0.550</text>
+<text class="topic" x="230" y="286.0" text-anchor="end">Post-processing</text>
+<path class="bar" d="M240.0,273.0 h213.4 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-213.4 z"/>
+<text class="value" x="463.4" y="286.0">0.543</text>
+<text class="topic" x="230" y="314.0" text-anchor="end">Secret key rate vs distance</text>
+<path class="bar" d="M240.0,301.0 h204.5 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-204.5 z"/>
+<text class="value" x="454.5" y="314.0">0.521</text>
+<text class="topic" x="230" y="342.0" text-anchor="end">Intercept-resend attack</text>
+<path class="bar" d="M240.0,329.0 h198.7 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-198.7 z"/>
+<text class="value" x="448.7" y="342.0">0.507</text>
+<text class="topic" x="230" y="370.0" text-anchor="end">Trusted nodes</text>
+<path class="bar" d="M240.0,357.0 h196.8 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-196.8 z"/>
+<text class="value" x="446.8" y="370.0">0.502</text>
+<text class="topic" x="230" y="398.0" text-anchor="end">Decoy states</text>
+<path class="bar" d="M240.0,385.0 h191.1 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-191.1 z"/>
+<text class="value" x="441.1" y="398.0">0.488</text>
+<text class="topic" x="230" y="426.0" text-anchor="end">Quantum repeaters &amp; satellites</text>
+<path class="bar" d="M240.0,413.0 h187.3 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-187.3 z"/>
+<text class="value" x="437.3" y="426.0">0.478</text>
+</svg>

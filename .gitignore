@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# uv / virtual environments
+.venv/
+
+# Local secrets and settings
+.env
+
+# Editors and OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
